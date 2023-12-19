@@ -1,0 +1,7 @@
+steps in running:
+
+
+lex programname.l
+cc lex.yy.c
+./a.out
+control d after entering input

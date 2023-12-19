@@ -1,0 +1,23 @@
+for Yacc :
+
+1. First compile Lex Programme
+   // lex programname.l
+ 
+ 2 Compile yacc program
+  // yacc -d programname.y
+  
+ 3 enter command ls you will get two files 
+   3.1 y.tab.c and  lex.yy.c
+   3.2 compile both
+      // cc lex.yy.c y.tab.c -w
+  4 Enter ls command a.out will be generated
+  5 for out put enter ./a.out
+  
+  
+  
+  
+For Normal Lex program :
+
+1. //lex programname.l
+2 //lex.yy.x
+3 ./a.out
